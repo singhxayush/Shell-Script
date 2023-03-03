@@ -1,0 +1,4 @@
+#!/bin/bash
+read -r file_name < filename
+./"$file_name.sh" > op.txt
+exit
